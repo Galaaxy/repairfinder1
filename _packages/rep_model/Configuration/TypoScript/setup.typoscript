@@ -1,0 +1,49 @@
+plugin.tx_repmodel {
+    layoutRootPaths.0 = EXT:tx_repmodel/Resources/Private/Layouts/
+    layoutRootPaths.10 = {$plugin.tx_repmodel.view.layoutRootPath}
+    partialRootPaths.0 = EXT:tx_repmodel/Resources/Private/Partials/
+    partialRootPaths.10 = {$plugin.tx_repmodel.view.partialRootPath}
+    templateRootPaths.0 = EXT:tx_repmodel/Resources/Private/Templates/
+    templateRootPaths.10 = {$plugin.tx_repmodel.view.templateRootPath}
+
+    persistence {
+        storagePid = {$plugin.tx_repmodel.persistence.storagePid}
+    }
+}
+
+page.includeJSFooter {
+    rep_model >
+}
+
+config.recordLinks.tx_repmodel {
+        typolink {
+            parameter.dataWrap = {field:uid} _top externalPersonLink
+            section.dataWrap =  collapse-{parameters:target}
+            useCacheHash = 1
+
+            /*
+            I'm really f***** up...
+            https://forge.typo3.org/issues/81620
+            https://forge.typo3.org/issues/81316
+            @todo: use userfunc or hook or something else, when bug is fixed...
+
+            ATagParams.data = parameters:allParams
+            target.data = parameters:target
+            title.data = parameters:title
+            target = _top
+            target.override.value = _top
+            extTarget = _top
+            extTarget.override.value = _top
+            title.override.data = paramters:title
+
+            10 = USER_INT
+            10 {
+                userFunc = DPX\DpxInfo\UserFunc\TypolinkUserFunc->parseLinkHandlerTypolink
+                userFunc {
+                    // paramaters as ts gettext object
+                }
+            }
+            */
+        }
+
+    }

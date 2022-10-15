@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2019-07-04T11:03:25+00:00" product-name="rep_model">
+        <header/>
+        <body>
+            <trans-unit id="tx_repmodel_domain_model_device" xml:space="preserve">
+                <source>Persons/Institutions</source>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.person_name" xml:space="preserve">
+                <source>Persons/Institutions - List view</source>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.selection_name" xml:space="preserve">
+                <source>Persons/Institutions - Manual selection</source>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.selection_description" xml:space="preserve">
+                <source>Add persons, partners, companys or other info to special Bootstrap accordions to the page.</source>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.starttime" xml:space="preserve">
+                <source>Start</source>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.endtime" xml:space="preserve">
+                <source>End</source>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.focalpoints" xml:space="preserve">
+                <source>Focal points (description)</source>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.image" xml:space="preserve">
+                <source>Image</source>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.border" xml:space="preserve">
+                <source>Border color</source>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.function" xml:space="preserve">
+                <source>Function/Explanation</source>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.firstname" xml:space="preserve">
+                <source>First name</source>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.lastname" xml:space="preserve">
+                <source>Last name</source>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.language" xml:space="preserve">
+                <source>Language</source>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.allLanguages" xml:space="preserve">
+                <source>All languages</source>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.hidden" xml:space="preserve">
+                <source>Page visible</source>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.extend" xml:space="preserve">
+                <source>Extend</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

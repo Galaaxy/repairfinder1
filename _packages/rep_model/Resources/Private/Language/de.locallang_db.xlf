@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2019-07-04T11:03:25+00:00" product-name="rep_model">
+        <header/>
+        <body>
+            <trans-unit id="tx_repmodel_domain_model_device" xml:space="preserve">
+                <target>Personen/Institutionen</target>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.person_name" xml:space="preserve">
+                <target>Personen/Institutionen - Listenansicht</target>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.selection_name" xml:space="preserve">
+                <target>Personen/Institutionen - manuelle Auswahl</target>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.selection_description" xml:space="preserve">
+                <target>Füge Personen, Partner, Firmen oder andere Informationen zu speziellen Bootstrap-Akkordeons auf der Seite hinzu.</target>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.starttime" xml:space="preserve">
+                <target>Start</target>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.endtime" xml:space="preserve">
+                <target>Ende</target>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.focalpoints" xml:space="preserve">
+                <target>Schwerpunkte (Beschreibung)</target>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.image" xml:space="preserve">
+                <target>Bild</target>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.border" xml:space="preserve">
+                <target>Rahmen Farbe</target>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.function" xml:space="preserve">
+                <target>Funktion/Erläuterung</target>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.firstname" xml:space="preserve">
+                <target>Vorname</target>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.lastname" xml:space="preserve">
+                <target>Nachname</target>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.language" xml:space="preserve">
+                <target>Sprache</target>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.allLanguages" xml:space="preserve">
+                <target>Alle Sprachen</target>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.hidden" xml:space="preserve">
+                <target>Seite sichtbar</target>
+            </trans-unit>
+            <trans-unit id="tx_repmodel_domain_model_device.extend" xml:space="preserve">
+                <target>Erweitert</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

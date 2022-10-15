@@ -1,0 +1,31 @@
+{
+  "name": "rep/model",
+  "type": "typo3-cms-extension",
+  "description": "Repairfinder Model Extension",
+  "license": [
+    "GPL-2.0+"
+  ],
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Frédéric Haubold",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "REP\\Model\\": "Classes/"
+    }
+  },
+  "require": {
+    "typo3/cms-core": "^11.5.0"
+  },
+  "replace": {
+    "rep/model": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "rep_model"
+    }
+  }
+}
